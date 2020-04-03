@@ -1,4 +1,4 @@
-import * as fs from 'fs';
+const fs = require('fs');
  
 fs.writeFile('./newFile.txt', "sdgashdgsahsd", (err) => {
   if (err) throw err;
